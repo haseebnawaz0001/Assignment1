@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    color: #222222;
+    background-color: #f4f6f9;
+    margin: 0;
+}
+
+h2 {
+    color: #1f3a5f;
+    text-align: center;
+}
+
+nav {
+    background-color: #2f6db5;
+    text-align: center;
+    padding: 12px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 15px;
+}
+
+main {
+    width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+form > fieldset {
+    background-color: #ffffff;
+    border: 2px solid #2f6db5;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+}
+
+fieldset label {
+    display: inline-block;
+    min-width: 170px;
+    font-weight: bold;
+}
+
+input[type="radio"] + label,
+input[type="checkbox"] + label {
+    min-width: 0;
+    margin-right: 15px;
+    font-weight: normal;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="url"],
+input[type="number"],
+input[type="date"],
+input[type="time"],
+select,
+textarea {
+    width: 250px;
+    padding: 6px;
+    border: 2px solid #b8c4d4;
+}
+
+input[readonly] {
+    background-color: #eeeeee;
+    color: #555555;
+}
+
+input[disabled] {
+    background-color: #dddddd;
+    color: #888888;
+}
+
+input[type="submit"] {
+    background-color: #e07b00;
+    color: #ffffff;
+    border: none;
+    padding: 10px 25px;
+    font-weight: bold;
+}
