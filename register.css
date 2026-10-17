@@ -81,3 +81,33 @@ input[type="submit"] {
     padding: 10px 25px;
     font-weight: bold;
 }
+
+input[type="submit"]:hover {
+    background-color: #b35f00;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    border-color: #e07b00;
+    background-color: #fff8ee;
+    outline: none;
+}
+
+input:valid {
+    border-color: #2e9e4f;
+}
+
+input:invalid {
+    border-color: #d93025;
+}
+
+legend::first-letter {
+    color: #e07b00;
+    font-size: 22px;
+}
+
+h2::first-letter {
+    color: #e07b00;
+    font-size: 36px;
+}
