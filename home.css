@@ -43,3 +43,28 @@ img {
     max-width: 100%;
     border: 4px solid #1f3a5f;
 }
+
+.feature-box {
+    background-color: #ffffff;
+    border: 2px solid #2f6db5;
+    border-left: 10px solid #e07b00;
+    padding: 10px 20px;
+    margin-bottom: 15px;
+}
+
+.highlight {
+    color: #e07b00;
+    font-weight: bold;
+}
+
+#overview {
+    background-color: #e8eef6;
+    border: 1px solid #1f3a5f;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+
+#features {
+    border-top: 3px dashed #2f6db5;
+    padding-top: 10px;
+}
